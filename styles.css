@@ -1,20 +1,39 @@
-ul{
+.nav-container {
+    border: none;
+    text-align: center;
+    padding: 20px;
+    background-color: bisque;
+
+}
+
+ul {
     list-style: none;
     font-size: 0;
-    padding: 0;
+    padding: 30px 30px 0px 30px;
     margin: 0;
     text-align: center;
-  }
 
-ul li{
+}
+
+ul li {
+    text-transform: uppercase;
     display: inline-block;
-  }
+}
 
-ul li a{
-    color: #000;
+ul li a {
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    background-color: #067433;
+    margin: 5px;
+    padding: 10px;
     text-decoration: none;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
-
+ul li a:hover {
+    background-color: #113620;
+    cursor: pointer;
+    transition: 0.5s;
+}
